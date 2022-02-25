@@ -72,6 +72,7 @@ aside {
 #aside-show, #back2{
     opacity: 1;
     transition: opacity 1s;
+    z-index:30;
 }
 #aside-show.fade, #back2.fade{
     opacity: 0;
@@ -229,14 +230,14 @@ div.landing--content > h2 {
 .footer--phone{
     width: 25%;
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 0px;
     min-width: 200px;
     background-color: var(--content-color);
 }
 .footer--other{
     width: 20%;
     padding: 10px;
-    margin-right: 80px;
+    margin-right: 0px;
     min-width: 200px;
     background-color: var(--content-color);
 }
@@ -244,7 +245,8 @@ div.landing--content > h2 {
     display:none;
 }
 
-
 footer {
     margin-top: 25px;
 }
+
+.

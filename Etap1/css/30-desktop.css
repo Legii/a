@@ -36,7 +36,9 @@ div.landing--content > h2 {
 
 #back2 {
     display:none;
+    transform: opacity 0.5s
 }
 #aside-show {
+
     display:block;
 }
