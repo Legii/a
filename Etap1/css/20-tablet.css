@@ -1,0 +1,80 @@
+:root {
+    --main-font-size:16px
+}
+section >h2 {
+    font-size: 1.5em;
+}
+
+div.landing--content > h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+.landing--container{
+    flex-direction: row;
+    margin: auto;
+    width: 960px;
+    height: 35vh;
+    padding: 5px;
+    background-color: var(--box-color);
+    min-height: 335px;
+}
+.landing--content {
+margin-top: 5px;
+    padding: 5px;
+    width: 33%;
+    margin:5px;
+    font-size: 2em;
+}
+
+.landing--content--event {
+    padding: 5px;
+    margin: 3px;
+    height: 80px;
+    background-color: var(--content-color);
+    font-size: 0.6em;
+}
+
+nav > div {
+    display:flex !important;
+}
+
+.nav--container, .footer--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    font-size: 1.5em;
+
+}
+.nav--logo{
+    width: 20%;
+    padding: 15px;
+    min-width: 150px;
+    background-color: var(--content-color);
+
+}
+.nav--links{
+    width: 60%;
+    padding: 15px;
+    min-width: 600px;
+    background-color: var(--content-color);
+
+}
+.nav--social{
+    width: 15%;
+    padding: 15px;
+    min-width: 150px;
+    background-color: var(--content-color);
+
+}
+
+nav >#hamburger {
+    display:none;
+    width:0px;
+}
+
+#aside-show {
+    display:none;
+}

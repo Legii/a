@@ -1,0 +1,42 @@
+:root {
+    --main-font-size:20px
+}
+section >h2 {
+    font-size: 2em;
+}
+
+div.landing--content > h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.landing--container{
+    margin: auto;
+    width: 960px;
+    height: 60vh;
+    padding: 10px;
+    background-color: var(--box-color);
+    min-height: 465px;
+}
+.landing--content {
+    margin-top: 10px;
+    padding: 10px;
+    width: 33%;
+    margin:5px;
+    font-size: 2em;
+}
+
+.landing--content--event {
+    padding: 10px;
+    margin: 5px;
+    height: 100px;
+    background-color: var(--content-color);
+    font-size: 0.6em;
+}
+
+#back2 {
+    display:none;
+}
+#aside-show {
+    display:block;
+}
